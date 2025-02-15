@@ -62,9 +62,9 @@ public class Main {
         var totalWorktime = 640;
         var singleWorkertime = 8;
         var totalWorkers = totalWorktime / singleWorkertime;
-        var totalWorkersnew = totalWorkers + 94;
         System.out.println("Всего в компании работает " + totalWorkers + " человек");
-        System.out.println("Если в компании работает " + totalWorkersnew + " человек(а), то всего " + (totalWorkersnew * singleWorkertime) + " часов работы может быть поделено между сотрудниками.");
+        totalWorkers = totalWorkers + 94;
+        System.out.println("Если в компании работает " + totalWorkers + " человек(а), то всего " + (totalWorkers * singleWorkertime) + " часов работы может быть поделено между сотрудниками.");
 
     }
 }
